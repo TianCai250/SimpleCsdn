@@ -1,0 +1,9 @@
+var style = document.createElement("style");
+style.setAttribute("type", "text/css");
+const cssString =
+  ".blog_container_aside,.recommend-right,#mys-wrapper,.more-toolbox-new{display: none!important};";
+const cssText = document.createTextNode(cssString);
+style.appendChild(cssText);
+const heads = document.getElementsByTagName("head");
+heads[0].appendChild(style);
+console.log("first");

@@ -1,0 +1,35 @@
+{
+    "name": "SimpleCsdn",
+    "description": "清除csdn两侧广告",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "16": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+    },
+    "browser_action": {
+        "default_icon": "images/logo.png",
+        "default_title": "SimpleCsdn"
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "parsistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content-script.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "https://blog.csdn.net/"
+    ]
+}
