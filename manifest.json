@@ -21,7 +21,7 @@
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "https://blog.csdn.net/*"
             ],
             "js": [
                 "js/content-script.js"
@@ -30,6 +30,6 @@
         }
     ],
     "permissions": [
-        "https://blog.csdn.net/"
+        "https://blog.csdn.net/*"
     ]
 }
