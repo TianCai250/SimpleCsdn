@@ -1,6 +1,6 @@
 {
     "name": "SimpleCsdn",
-    "description": "清除csdn两侧广告",
+    "description": "清除csdn广告",
     "version": "0.0.1",
     "manifest_version": 2,
     "icons": {

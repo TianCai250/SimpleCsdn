@@ -1,2 +1,2 @@
 # SimpleCsdn
-+ 一个清除csdn两侧广告的chrome插件
++ 一个清除csdn广告的chrome插件
