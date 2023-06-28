@@ -1,2 +1,2 @@
 # SimpleCsdn
-+ 一个清除csdn广告的chrome插件
++ 一个清除csdn广告和屏蔽csdn收费下载文件推荐的chrome插件
