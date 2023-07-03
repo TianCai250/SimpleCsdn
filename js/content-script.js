@@ -5,5 +5,4 @@ const cssString =
 const cssText = document.createTextNode(cssString);
 style.appendChild(cssText);
 const heads = document.getElementsByTagName("head");
-
 heads[0].appendChild(style);
